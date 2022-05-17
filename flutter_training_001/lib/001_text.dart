@@ -1,3 +1,5 @@
+import 'dart:html';
+
 import 'package:flutter/material.dart';
 
 class TrText extends StatelessWidget {
@@ -12,7 +14,29 @@ class TrText extends StatelessWidget {
       appBar: AppBar(
         title: Text(args['title']),
       ),
-      body: Center(child: Text('this is $fun page')),
+      body: Text('this is $fun page',
+          // style: Theme.of(context).textTheme.headline6,
+          style: TextStyle(
+              fontSize: 50,
+              color: Colors.black87,
+              fontWeight: FontWeight.w900,
+              // decoration: TextDecoration.lineThrough,
+              // backgroundColor: Colors.yellow,
+              shadows: [
+                Shadow(
+                  color: Colors.black45,
+                  offset: Offset(0.0, 5.0),
+                  blurRadius: 1.0,
+                )
+              ])),
     );
   }
 }
+
+
+// Theme.of(context).textTheme.headline6.
+/*
+ 
+
+
+ */

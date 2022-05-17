@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Ya Rab',
-      theme: ThemeData.dark(),
+      theme: ThemeData.light(),
       // home: const MyHomePage(title: 'Title'),
       home: const TrText(args: {'title': 'Title', 'fun': 'FUNNNNNNNNNNN'}),
     );
