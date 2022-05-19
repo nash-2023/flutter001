@@ -1,5 +1,4 @@
 import 'dart:html';
-
 import 'package:flutter/material.dart';
 
 class Trcontainer extends StatelessWidget {
@@ -20,12 +19,13 @@ class Trcontainer extends StatelessWidget {
       body: Container(
         width: double.infinity,
         height: double.infinity,
-        margin: const EdgeInsets.all(20),
+        margin: const EdgeInsets.all(30),
         // margin: EdgeInsets.symmetric(vertical: 10, horizontal: 0),
         // margin: EdgeInsets.only(left: 10, top: 20, right: 5, bottom: 10),
         padding: const EdgeInsets.all(15),
         // padding: EdgeInsets.only(top: 50),
         // color: Colors.red,
+        // alignment: Alignment.topRight,
         decoration: BoxDecoration(
           color: Colors.white,
           border: Border.all(color: Colors.red, width: 5),
@@ -38,7 +38,7 @@ class Trcontainer extends StatelessWidget {
           ),
           boxShadow: [
             const BoxShadow(
-              color: Colors.black38,
+              color: Color.fromARGB(255, 189, 0, 157),
               blurRadius: 5.0,
               spreadRadius: 1.0,
             )
