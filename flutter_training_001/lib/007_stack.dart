@@ -18,11 +18,11 @@ class TrStack extends StatelessWidget {
       body: Container(
         width: 600.0,
         height: 600.0,
-        color: Colors.black12,
+        color: Colors.yellow,
         child: Stack(
+          // overflow: Overflow.visible, XXX
           // alignment: Alignment.topLeft,
           // fit: StackFit.loose,
-
           children: [
             Container(
               width: 200.0,
