@@ -28,7 +28,6 @@ class TrIcn extends StatelessWidget {
           ),
         ],
       ),
-      Text("fun"),
     );
   }
 }
