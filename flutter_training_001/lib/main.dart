@@ -8,6 +8,7 @@ import '005_column.dart';
 import '006_row.dart';
 import '007_stack.dart';
 import '008_expanded.dart';
+import "009_Icon.dart";
 
 void main() {
   runApp(const MyApp());
@@ -21,14 +22,15 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
         title: 'Ya Rab',
-        theme: ThemeData.dark(),
-        // home: const MyHomePage(title: 'Title'),
-        // home: const TrText(args: {'title': 'Title', 'fun': 'FUNNNNNNNNNNN'}),
-        // home: const Trcontainer(args: {'title': 'Title', 'fun': 'FUNNNNNNNNNNN'}),
-        // home: const TrImage(args: {'title': 'Training', 'fun': 'this is funny commint'}),
-        // home: const TrCard(args: {'title': 'Training', 'fun': 'Funny Comment'}));
-        // home: const TrRow(args: {'title': 'Training', 'fun': 'Funny Comment'}));
-        // home:    const TrStack(args: {'title': 'Training', 'fun': 'Funny Comment'}));
-        home: const TrExp(args: {'title': 'Training'}));
+        theme: ThemeData.light(),
+        //home:const MyHomePage(title: 'Title'),
+        //home:const TrText(args: {'title': 'Title', 'fun': 'FUNNNNNNNNNNN'}),
+        //home:const Trcontainer(args: {'title': 'Title', 'fun': 'FUNNNNNNNNNNN'}),
+        //home:const TrImage(args: {'title': 'Training', 'fun': 'this is funny commint'}),
+        //home:const TrCard(args: {'title': 'Training', 'fun': 'Funny Comment'}));
+        //home:const TrRow(args: {'title': 'Training', 'fun': 'Funny Comment'}));
+        //home:const TrStack(args: {'title': 'Training', 'fun': 'Funny Comment'}));
+        //home:const TrExp(args: {'title': 'Training'}));
+        home: const TrIcn(args: {'title': 'Training'}));
   }
 }
