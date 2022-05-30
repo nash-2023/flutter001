@@ -55,12 +55,12 @@ class TrIcn extends StatelessWidget {
             ],
           ),
           Divider(
-            height: 50.0,
-            thickness: 10.0,
-            indent: 50.0,
-            endIndent: 50.0,
-            color: Colors.black,
-          ),
+              // height: 50.0,
+              // thickness: 10.0,
+              // indent: 50.0,
+              // endIndent: 50.0,
+              // color: Colors.black,
+              ),
         ],
       ),
     );
